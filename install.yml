@@ -7,7 +7,7 @@ requirements:
   conda:
     channels:
       - conda-forge
-    dependencies:
+    packages:
       - rasterio
       - netcdf4
       - numpy

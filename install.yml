@@ -1,0 +1,16 @@
+version: 1.0.0
+name: infection
+setup_path: setup.py
+
+requirements:
+  skip: false
+  conda:
+    channels:
+      - conda-forge
+    dependencies:
+      - rasterio
+      - netcdf4
+      - numpy
+      - pandas
+      - pyshp
+      - rasterstats
